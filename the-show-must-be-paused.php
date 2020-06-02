@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: The Show Must Be Paused
-Plugin URI: https://the_show_must_be_pausedwp.com
+Plugin URI: 
 Description: A show of solidarity with George Floyd.
 Version: 1.0.0
 Author: johnstonphilip

@@ -41,6 +41,10 @@ if ( ! defined( 'ABSPATH' ) ) {
  */
 function the_show_must_be_paused() {
 
+	if ( is_admin() ) {
+		return;
+	}
+
 	?>
 	<!doctype html>
 	<html lang="en">

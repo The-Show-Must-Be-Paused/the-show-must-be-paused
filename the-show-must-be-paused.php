@@ -41,7 +41,7 @@ if ( ! defined( 'ABSPATH' ) ) {
  */
 function the_show_must_be_paused() {
 
-	if ( is_admin() ) {
+	if ( $GLOBALS['pagenow'] == 'wp-login.php' || is_admin() ) {
 		return;
 	}
 

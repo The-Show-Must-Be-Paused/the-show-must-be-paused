@@ -179,31 +179,14 @@ function the_show_must_be_paused() {
 	</head>
 	<body class="text-center">
 	<div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
-		<header class="masthead mb-auto">
-	<!--
-	<div class="inner">
-		<h3 class="masthead-brand">Cover</h3>
-		<nav class="nav nav-masthead justify-content-center">
-		<a class="nav-link active" href="#">Home</a>
-		<a class="nav-link" href="#">Features</a>
-		<a class="nav-link" href="#">Contact</a>
-		</nav>
-	</div>
-	-->
-	</header>
-
 	<main role="main" class="inner cover">
 	<h1 class="cover-heading">George Floyd</h1>
 	<p class="lead mastfoot">Natosha McDade, Yassin Mohamed, Finan H. Berhe, Sean Reed, Steven Demarco Taylor, Breonna Taylor, Ariane McCree, Terrance Franklin, Miles Hall, Darius Tarver, William Green, Samuel David Mallard, Kwame Jones, De’von Bailey, Christopher Whitfield, Anthony Hill, De’Von Bailey, Eric Logan, Jamarion Robinson, Gregory Hill Jr, JaQuavion Slaton, Ryan Twyman, Brandon Webber, Jimmy Atchison, Willie McCoy, Emantic Fitzgerald Bradford J, D’ettrick Griffin, Jemel Roberson, DeAndre Ballard, Botham Shem Jean, Robert Lawrence White, Anthony Lamar Smith, Ramarley Graham, Manuel Loggins Jr, Trayvon Martin, Wendell Allen, Kendrec McDade, Larry Jackson Jr, Jonathan Ferrell, Jordan Baker, Victor White III, Dontre Hamilton, Eric Garner, John Crawford III, Michael Brown, Ezell Ford, Dante Parker, Kajieme Powell, Laquan McDonald, Akai Gurley, Tamir Rice, Rumain Brisbon, Jerame Reid, Charly Keunang, Tony Robinson, Walter Scott, Freddie Gray, Brendon Glenn, Samuel DuBose, Christian Taylor, Jamar Clark, Mario Woods, Quintonio LeGrier, Gregory Gunn, Akiel Denkins, Alton Sterling, Philando Castile, Terrence Sterling, Terence Crutcher, Keith Lamont Scott, Alfred Olango, Jordan Edwards, Stephon Clark, Danny Ray Thomas, DeJuan Guillory, Patrick Harmon, Jonathan Hart, Maurice Granton, Julius Johnson, Jamee Johnson, Michael Dean...</p>
-	<!--<p class="lead">
-		<a href="#" class="btn btn-lg btn-secondary">Learn more</a>
-	</p>-->
 	</main>
-
 	<footer class="mastfoot mt-auto">
 		<div class="inner">
-			<p>This site is currently offline, as a small mark of respect, and expression of solidarity.</p>
-			<p>Organisations that could use your financial support include <a href="https://blacklivesmatter.com/">Black Lives Matter</a>, <a href="https://www.naacpldf.org">The NAACP Legal Defense and Educational Fund</a>, <a href="https://eji.org">The Equal Justice Initiative</a>, <a href="https://www.wetheprotesters.org">We The Protesters</a>, and the <a href="https://www.gofundme.com/f/georgefloyd">George Floyd Memorial Fund</a>.</p>
+			<p><?php echo esc_html( __( 'This site is currently offline, as a small mark of respect, and expression of solidarity.', 'the-show-must-be-paused' ) ); ?></p>
+			<p><?php echo wp_kses_post( __( 'Organisations that could use your financial support include <a href="https://blacklivesmatter.com/">Black Lives Matter</a>, <a href="https://www.naacpldf.org">The NAACP Legal Defense and Educational Fund</a>, <a href="https://eji.org">The Equal Justice Initiative</a>, <a href="https://www.wetheprotesters.org">We The Protesters</a>, and the <a href="https://www.gofundme.com/f/georgefloyd">George Floyd Memorial Fund</a>.', 'the-show-must-be-paused' ) ); ?></p>
 		</div>
 	</footer>
 </div>

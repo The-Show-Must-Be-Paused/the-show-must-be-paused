@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: The Show Must Be Paused
-Plugin URI: 
+Plugin URI:
 Description: A show of solidarity with George Floyd.
 Version: 1.0.0
 Author: johnstonphilip
@@ -52,7 +52,7 @@ function the_show_must_be_paused() {
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<title>George Floyd</title>
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous"
+	<link rel="stylesheet" href="<?php echo esc_url( plugin_dir_url( __FILE__ ) . '/bootstrap.min.css' ); ?>">
 	<meta name="theme-color" content="#563d7c">
 
 	<style>

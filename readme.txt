@@ -8,11 +8,11 @@ Stable tag: 1.0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
  
-While active, this WordPress plugin replaces all front-end pages with a small mark of respect, and expression of solidarity. 
+While active, this WordPress plugin replaces all front-end pages with a small mark of respect, and expression of solidarity with George Floyd and so many others.
 
 == Description ==
  
-Install this plugin to blackout your website as small mark of respect, and expression of solidarity.
+Install this plugin to blackout your website as small mark of respect, and expression of solidarity with George Floyd and so many others.
 
 This message is what will appear on all pages of your site:
 

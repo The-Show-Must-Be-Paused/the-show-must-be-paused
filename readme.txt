@@ -2,7 +2,7 @@
 Contributors: johnstonphilip
 Donate link: https://www.naacpldf.org
 Tags: Requires at least: 5.1
-Tested up to: 5.2
+Tested up to: 5.4.1
 Requires PHP: 5.6
 Stable tag: 1.0.1
 License: GPLv2 or later

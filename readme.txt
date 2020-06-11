@@ -2,17 +2,17 @@
 Contributors: johnstonphilip
 Donate link: https://www.naacpldf.org
 Tags: Requires at least: 5.1
-Tested up to: 5.2
+Tested up to: 5.4.1
 Requires PHP: 5.6
-Stable tag: 1.0.0
+Stable tag: 1.0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
  
-While active, this WordPress plugin replaces all front-end pages with a small mark of respect, and expression of solidarity. 
+While active, this WordPress plugin replaces all front-end pages with a small mark of respect, and expression of solidarity with George Floyd and so many others.
 
 == Description ==
  
-Install this plugin to blackout your website as small mark of respect, and expression of solidarity. 
+Install this plugin to blackout your website as small mark of respect, and expression of solidarity with George Floyd and so many others.
 
 This message is what will appear on all pages of your site:
 
